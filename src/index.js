@@ -1,18 +1,19 @@
 //import background from "./assets/background";
 import computer_logo from "./assets/computer.png";
+import menuHTML from "./menu";
 import contactHTML from "./contact";
 import './style.css';
 
 const content = document.getElementById('content');
 
-const homeHTML = () => {
+export const homeHTML = () => {
     const myComputer = new Image();
     myComputer.src = computer_logo;
     myComputer.id = 'computer_logo';
     content.innerHTML = `
         <nav id="nav">
             <ul>
-                <li id="home" class="link">Inicio</li>
+                <li id="home" class="selected-link">Inicio</li>
                 <li id="menu" class="link">Menu</li>
                 <li id="contact" class="link">Contacto</li>        
             </ul>
@@ -28,24 +29,32 @@ const homeHTML = () => {
     const structure = document.getElementById('structure');
     const information = document.getElementById('information');
     structure.insertBefore(myComputer, information);
+
+    setEventListeners();
 }
 
-
-window.onload = () => {
-    homeHTML();
-
+export default function setEventListeners() {
     const home = document.getElementById('home');
     const menu = document.getElementById('menu');
     const contact = document.getElementById('contact');
 
     home.addEventListener('click', () => {
-        console.log('gas');
+        homeHTML();
     });
     menu.addEventListener('click', () => {
-        contactHTML();
+        menuHTML();
     });
     contact.addEventListener('click', () => {
-        console.log('gas');
+        contactHTML();
     });
+    home.style.cssText = '';
 }
 
+window.onload = () => {
+    homeHTML();
+}
+
+function linkStyle(element) {
+    element.classList.remove('link');
+    element.classList.add('selected-link');
+}

@@ -73,16 +73,24 @@
 .link:hover {
     background-color: var(--primary);
     border: 4px solid white;
-    color: var(--extra);
+    color: white;
+}
+
+.selected-link {
+    background-color: var(--primary);
+    border: 4px solid white;
+    color: white;
+    padding: 0px 15px;
 }
 
 #structure {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 50%;
-    border: 2px solid black;
+    width: 80%;
+    border: 10px solid black;
 }
 
 #title {
@@ -95,4 +103,11 @@
 
 #computer_logo {
     width: 20rem;
+}
+
+/* MENU */
+.options {
+    display: grid;
+    grid-template-columns: 4;
+
 }
