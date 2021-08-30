@@ -14,7 +14,7 @@ export default function displayContactHTML() {
         <h1 id="title">Contacto</h1>
 
         <div id='information'>
-            
+            <h2>Te esperamos!</h2>
         </div>
     </div>
     `;
