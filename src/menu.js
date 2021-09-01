@@ -14,10 +14,22 @@ export default function displayMenuHTML() {
         <h1 id="title">Menu</h1>
 
         <div id='options'>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="option">
+                <h3 class="option-title">Title</h3>
+                <p class="option-description">aaa</p>
+            </div>
+            <div class="option">
+                <h3 class="option-title">Title</h3>
+                <p class="option-description">bbb</p>
+            </div>
+            <div class="option">
+                <h3 class="option-title">Title</h3>
+                <p class="option-description">ccc</p>
+            </div>
+            <div class="option">
+                <h3 class="option-title">Title</h3>
+                <p class="option-description">ddd</p>
+            </div>
         </div>
     </div>
     `;

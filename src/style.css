@@ -52,7 +52,7 @@
 
 #nav > ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -85,7 +85,7 @@
 }
 
 #structure {
-    margin-top: 1rem;
+    margin-top: .1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@
 }
 
 #title {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 #information {
@@ -108,8 +108,29 @@
 }
 
 /* MENU */
-.options {
+#options {
+    /* width: 50%;
+    height: 50%;
+    border: 10px solid white; */
     display: grid;
-    grid-template-columns: 4;
+    grid-template-columns: 13rem 13rem;
+    grid-template-rows: 14rem 14rem;
+    column-gap: 13rem;
+    row-gap: 6rem;
+}
+
+#options > .option {
+    background-color: rgba(255, 0, 0, 0.603);
+    border: 3px solid white;
+    margin-bottom: .5rem;
+    border-radius: 50px;
+}
+
+.option-title {
+    opacity: 1;
+    text-align: center;
+}
+
+.option-description {
 
 }
