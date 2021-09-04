@@ -15,16 +15,16 @@ export default function displayMenuHTML() {
 
         <div id='options'>
             <div class="option">
-                <h3 class="option-title">Title</h3>
-                <p class="option-description">aaa</p>
+                <h3 class="option-title">BurgerHTML</h3>
+                <p class="option-description">Nuestra hamburgesa por exelencia. Cheddar, panceta, cebolla criskpy y su medallón de carne. Es el plato que le da estructura a nuestro negocio!</p>
             </div>
             <div class="option">
-                <h3 class="option-title">Title</h3>
-                <p class="option-description">bbb</p>
+                <h3 class="option-title">FritasCSS</h3>
+                <p class="option-description">Porción de papas fritas bañada con queso cheddar y panceta. Es el plato que mejor estilo nos da ;)</p>
             </div>
             <div class="option">
-                <h3 class="option-title">Title</h3>
-                <p class="option-description">ccc</p>
+                <h3 class="option-title">JugoScript</h3>
+                <p class="option-description">Exprimido de naranja con pulpa frío y refrescante de 500ml. Sin este refresco, simplemente no tendríamos interactividad!</p>
             </div>
             <div class="option">
                 <h3 class="option-title">Title</h3>

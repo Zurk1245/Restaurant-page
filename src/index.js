@@ -19,7 +19,7 @@ export const homeHTML = () => {
             </ul>
         </nav>
         <div id="structure">
-            <h1 id="title">barTech.js</h1>
+            <h1 id="title">BarJS</h1>
 
             <div id='information'>
                 <h3>Somos el mejor tech-bar de Buenos Aires y el único con temática orientada a programación! Vení a disfrutar el sabor del conocimiento </h3>

@@ -112,25 +112,32 @@
     /* width: 50%;
     height: 50%;
     border: 10px solid white; */
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: 13rem 13rem;
-    grid-template-rows: 14rem 14rem;
-    column-gap: 13rem;
-    row-gap: 6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 25vw;
+    row-gap: 20vh;
+    margin-bottom: 3rem;
 }
 
 #options > .option {
-    background-color: rgba(255, 0, 0, 0.603);
+    width: 25vw;
+    height: 55vh;
+    background-color: rgba(0, 119, 255, 0.911);
     border: 3px solid white;
     margin-bottom: .5rem;
     border-radius: 50px;
 }
 
 .option-title {
-    opacity: 1;
+    font-size: 1.7rem;
     text-align: center;
+    margin-top: .4em;
 }
 
 .option-description {
-
+    font-size: .87rem;
+    text-align: justify;
+    padding: 15px;
 }
