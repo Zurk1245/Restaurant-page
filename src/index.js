@@ -1,4 +1,3 @@
-//import background from "./assets/background";
 import computer_logo from "./assets/computer.png";
 import menuHTML from "./menu";
 import contactHTML from "./contact";

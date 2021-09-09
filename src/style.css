@@ -128,6 +128,10 @@
     border: 3px solid white;
     margin-bottom: .5rem;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 .option-title {
@@ -139,5 +143,21 @@
 .option-description {
     font-size: .87rem;
     text-align: justify;
-    padding: 15px;
+    padding: 25px;
+}
+
+#foto-hamburguesa {
+    width: 9rem;
+}
+
+#foto-papa {
+    width: 9rem;
+}
+
+#foto-jugo {
+    width: 8rem;
+}
+
+#foto-helado {
+    width: 8rem;
 }
