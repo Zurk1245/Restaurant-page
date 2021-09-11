@@ -1,8 +1,8 @@
 import setEventListeners from './index';
 import papas from './assets/papas.jpg';
 import hamburguesa from './assets/burger.jpg';
-//import jugo from './assets/juice.jpg';
-//import helado from  './assets/icecream.jpg';
+import jugo from './assets/juice.jpg';
+import helado from  './assets/icecream.jpg';
 
 export default function displayMenuHTML() {
     const content = document.getElementById('content');
@@ -32,10 +32,12 @@ export default function displayMenuHTML() {
             <div id="3" class="option">
                 <h3 class="option-title">JugoScript</h3>
                 <p class="option-description">Exprimido de naranja con pulpa frío y refrescante de 500ml. Sin este refresco, simplemente no tendríamos interactividad!</p>
+                <img src="${jugo}" id="foto-jugo">
             </div>
             <div id="4" class="option">
                 <h3 class="option-title">WebIcePack</h3>
                 <p class="option-description">Nuestro helado sabor dulce de leche con bombones de chocolate para sentir la dulzura máxima. Este helado organiza tu digestión y junta toda la dulzura para que te vayas contento!</p>
+                <img src="${helado}" id="foto-helado">
             </div>
         </div>
     </div>
@@ -44,6 +46,4 @@ export default function displayMenuHTML() {
 }
 
     
-//<img src="${helado}" id="foto-helado">
-//<img src="${jugo}" id="foto-jugo">
 //aasdasda
