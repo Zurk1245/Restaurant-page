@@ -14,7 +14,7 @@ export default function displayContactHTML() {
         <h1 id="title">Contacto</h1>
 
         <div id='information'>
-            
+            <p>Vení a conocer la experiencia barJS, disfruta de algo rico y rodeate de conocimiento!</p>
             <h2>Te esperamos!</h2>
         </div>
     </div>

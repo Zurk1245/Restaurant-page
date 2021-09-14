@@ -100,11 +100,20 @@
 }
 
 #information {
-
+    width: 80%;
+    /* border: 5px solid var(--third); */
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.835);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 #computer_logo {
     width: 20rem;
+    margin: 0 auto;
 }
 
 /* MENU */
@@ -146,6 +155,11 @@
     padding: 25px;
 }
 
+.foto {
+    border-radius: 10px;
+    border: 3px groove black;
+}
+
 #foto-hamburguesa {
     width: 9rem;
 }
@@ -155,9 +169,9 @@
 }
 
 #foto-jugo {
-    width: 8rem;
+    width: 9rem;
 }
 
 #foto-helado {
-    width: 6rem;
+    width: 8rem;
 }

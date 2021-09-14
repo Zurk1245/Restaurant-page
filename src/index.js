@@ -1,4 +1,4 @@
-import computer_logo from "./assets/computer.png";
+import computerlogo from "./assets/computer.png";
 import menuHTML from "./menu";
 import contactHTML from "./contact";
 import './style.css';
@@ -6,9 +6,6 @@ import './style.css';
 const content = document.getElementById('content');
 
 export const homeHTML = () => {
-    const myComputer = new Image();
-    myComputer.src = computer_logo;
-    myComputer.id = 'computer_logo';
     content.innerHTML = `
         <nav id="nav">
             <ul>
@@ -18,17 +15,15 @@ export const homeHTML = () => {
             </ul>
         </nav>
         <div id="structure">
-            <h1 id="title">BarJS</h1>
+            <h1 id="title">JSbar</h1>
 
             <div id='information'>
-                <h3>Somos el mejor tech-bar de Buenos Aires y el único con temática orientada a programación! Vení a disfrutar el sabor del conocimiento </h3>
+                <img src="${computerlogo}" id="computer_logo">
+                <h3>Somos el mejor tech-bar de Buenos Aires y el único con temática orientada a programación! </h3>
+                <h4>Contamos con platos ricos para que disfrutes del mejor sabor y tenemos el ambiente perfecto para pasarla excelente: bar temático, luces especiales, materiales ambientados y hasta los mozos tienen su traje del conocimiento. Vení a conocer la experiencia JSbar. Vení a disfrutar el sabor del conocimiento</h4>
             </div>
         </div>
         `;
-    const structure = document.getElementById('structure');
-    const information = document.getElementById('information');
-    structure.insertBefore(myComputer, information);
-
     setEventListeners();
 }
 
@@ -51,9 +46,4 @@ export default function setEventListeners() {
 
 window.onload = () => {
     homeHTML();
-}
-
-function linkStyle(element) {
-    element.classList.remove('link');
-    element.classList.add('selected-link');
 }
