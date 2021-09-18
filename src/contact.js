@@ -14,7 +14,8 @@ export default function displayContactHTML() {
         <h1 id="title">Contacto</h1>
 
         <div id='information'>
-            <p>Vení a conocer la experiencia barJS, disfruta de algo rico y rodeate de conocimiento!</p>
+            <p>
+            Nos encontramos en Palermo, el barrio más pintoresco de la ciudad de Buenos Aires.  Vení a conocer la experiencia JSbar. Vení a disfrutar el sabor del conocimiento!</p>
             <h2>Te esperamos!</h2>
         </div>
     </div>
