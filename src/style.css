@@ -157,7 +157,7 @@
 }
 
 .option-description {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     text-align: justify;
     padding: 25px;
 }
@@ -195,7 +195,7 @@
 }
 
 /* RESPONSIVE DESIGN */
-@media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
     #information {
         font-size: 1.4rem;
     }
@@ -204,11 +204,54 @@
         width: 10rem;
     }
 
+    #options {
+        /* width: 50%;
+        height: 50%;
+        border: 10px solid white; */
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 20vh;
+        margin-bottom: 3rem;
+    }
+    
+    #options > .option {
+        width: 50vw;
+        /* height: 55vh; */
+        min-height: fit-content;
+        /* max-height: 50vh; */
+        background-color: rgba(0, 119, 255, 0.911);
+        border: 3px solid white;
+        margin-bottom: .5rem;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
     .option-title {
         font-size: 1.4rem;
     }
     
     .option-description {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #foto-hamburguesa {
+        width: 25vw;
+    }
+    
+    #foto-papa {
+        width: 25vw;
+    }
+    
+    #foto-jugo {
+        width: 25vw;
+    }
+    
+    #foto-helado {
+        width: 20vw;
     }
 }
