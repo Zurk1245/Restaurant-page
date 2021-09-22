@@ -196,6 +196,10 @@
 
 /* RESPONSIVE DESIGN */
 @media screen and (max-width: 800px){
+    #title {
+        font-size: 3rem;
+    }
+
     #information {
         font-size: 1.4rem;
     }
@@ -218,25 +222,16 @@
     
     #options > .option {
         width: 50vw;
-        /* height: 55vh; */
-        min-height: fit-content;
-        /* max-height: 50vh; */
-        background-color: rgba(0, 119, 255, 0.911);
-        border: 3px solid white;
         margin-bottom: .5rem;
         border-radius: 50px;
-        display: flex;
-        flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
     }
 
     .option-title {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
     
     .option-description {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     #foto-hamburguesa {
@@ -253,5 +248,50 @@
     
     #foto-helado {
         width: 20vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #nav {
+        height: 50px;
+        font-size: 1.5rem;    
+    }
+    
+    #nav > ul > li {
+        margin: 10px 14px;
+    }
+    
+    #options > .option {
+        width: 67vw;
+        margin-bottom: .5rem;
+        border-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #information {
+        font-size: 1.23rem;
+        padding: 10px 25px 15px 25px;
+    }
+}
+
+@media screen and (max-width: 464px) {
+    #nav {
+        height: 50px;
+        font-size: 1.27rem;    
+    }
+    
+    #nav > ul > li {
+        margin: 10px 14px;
+    }
+
+    /* #information {
+        font-size: 1.1rem;
+    } */
+    
+    #options > .option {
+        width: 67vw;
+        margin-bottom: .5rem;
+        border-radius: 50px;
     }
 }
