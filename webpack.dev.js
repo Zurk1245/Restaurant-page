@@ -4,6 +4,10 @@ const { merge } = require("webpack-merge");
 
 module.exports = merge(common, {
     mode: "development",
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, 'dist'),
+      },
     devtool: "source-map",
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
